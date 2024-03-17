@@ -1,0 +1,39 @@
+.container {
+  border: 2px solid red;
+  padding: 10px;
+  display: grid;
+  column-gap: 10px;
+  row-gap: 10px;
+  grid-template-columns: 1fr;
+  // grid-template-rows: 1fr 1fr;
+  margin: 10px;
+  .box {
+    height: 50px;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .box_1 {
+    background-color: pink;
+    grid-row: 1/5;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
