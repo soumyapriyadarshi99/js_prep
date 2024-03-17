@@ -10,4 +10,6 @@
 
 //event.stopPropagation()- we can stop propagation of events to its child events
 
-//event delegation -
+//event delegation - when we have multiple elements in one parent element and
+// we have to add events in all the elements, we can add only one events to
+//parent element and we can hamdle our lgic as per condition. ex _ lists
