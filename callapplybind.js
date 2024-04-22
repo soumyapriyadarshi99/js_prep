@@ -1,6 +1,6 @@
 /**@implements/mcq - https://roadsidecoder.hashnode.dev/javascript-interview-questions-call-bind-and-apply-polyfills-output-based-explicit-binding */
 
-//call,apply,bind explicitly bind an object witha function.
+//call,apply,bind explicitly bind an object with a function.
 //difference beetween these 3 are
 //call()- will not give any new function, directly we have to pass argments
 //apply()- will take arguments in list
