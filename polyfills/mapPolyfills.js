@@ -10,5 +10,5 @@ Array.prototype.myMap = function (fn) {
   }
   return result;
 };
-const newArray = arr.map((item, index) => item * 2 + index);
+const newArray = arr.myMap((item, index) => item * 2 + index);
 console.log(newArray);
