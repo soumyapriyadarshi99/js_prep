@@ -13,3 +13,5 @@
 //event delegation - when we have multiple elements in one parent element and
 // we have to add events in all the elements, we can add only one events to
 //parent element and we can hamdle our lgic as per condition. ex _ lists
+
+// https://dev-f7l9xt0lygugul6.api.raw-labs.com/mock/json-api
