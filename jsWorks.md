@@ -6,3 +6,5 @@ callback queue - It holds all the functions which are going exeucutes in first i
 callback queue consists of microqueue and macro queue
 
 event loop - it an infinity loop run through callback queue and evxecutes javascript code one by one.
+
+Event loop will take one by one asynchronous tasks to call stack and execute
