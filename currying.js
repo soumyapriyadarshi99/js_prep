@@ -56,3 +56,13 @@ function sum(a) {
 /** -------------------------------------------------------------- */
 // partail function - when the number of curried function is less than the number of
 // arguments
+
+function infSum(a) {
+  return (b) => {
+    if (b) {
+      return infSum(a + b);
+    }
+    return a;
+  };
+}
+console.log(infSum(10)(11)(12)(50)());

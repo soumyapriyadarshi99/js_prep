@@ -1,11 +1,11 @@
 const arr = [1, 2, 3, 4, 5];
 
 Array.prototype.myReduce = function (fn, initialValue = 0) {
-  let currentValue = initialValue;
+  let accValue = initialValue;
   for (let i = 0; i < this.length; i++) {
-    currentValue = fn(currentValue, this[i], i.this);
+    accValue = fn(accValue, this[i], i.this);
   }
-  return currentValue;
+  return accValue;
 };
 
 const value = arr.myReduce((acc, curr) => acc + curr, 0);
